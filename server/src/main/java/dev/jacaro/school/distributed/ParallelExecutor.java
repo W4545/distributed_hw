@@ -14,10 +14,12 @@ public class ParallelExecutor {
         int[][] arrays = new int[runConfiguration.threadCount()][];
 
         for (int i = 0; i < runConfiguration.threadCount(); i++) {
+            var shift = i * threadPayloadSize;
             if (i + 1 < runConfiguration.threadCount())
-                arrays[i] = Arrays.copyOfRange(runConfiguration.startArray(), i * threadPayloadSize, i * threadPayloadSize + threadPayloadSize);
+                arrays[i] = Arrays.copyOfRange(runConfiguration.startArray(), shift, shift + threadPayloadSize);
             else
-                arrays[i] = Arrays.copyOfRange(runConfiguration.startArray(), i * threadPayloadSize, i * threadPayloadSize + threadPayloadSize + remainder);
+                arrays[i] = Arrays.copyOfRange(
+                        runConfiguration.startArray(), shift, shift + threadPayloadSize + remainder);
         }
 
         SortThread[] sortThreads = new SortThread[runConfiguration.threadCount()];
