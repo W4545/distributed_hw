@@ -7,4 +7,74 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17 (3)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="9" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/server/src/main/resources/server.properties" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="129" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/server/src/main/java/dev/jacaro/school/distributed/Server.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="453" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/common/src/main/java/dev/jacaro/school/distributed/configuration/RunResult.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="2251" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/client/src/main/java/dev/jacaro/school/distributed/Client.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="45" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/client/src/main/resources/client.properties" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="166" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/common/build.gradle.kts" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="294" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/server/build.gradle.kts" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/build.gradle.kts" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="162" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/client/build.gradle.kts" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="76" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/common/src/main/java/module-info.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="74" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/common/src/main/java/dev/jacaro/school/distributed/configuration/ClientConfig.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="116" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/server/src/main/java/module-info.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="120" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/client/src/main/java/module-info.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="507" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/common/src/main/java/dev/jacaro/school/distributed/configuration/RunConfiguration.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1044" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/server/src/main/java/dev/jacaro/school/distributed/SortThread.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1950" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/server/src/main/java/dev/jacaro/school/distributed/ParallelExecutor.java" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
 </project>
