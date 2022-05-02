@@ -10,6 +10,7 @@ dependencies {
 
 application {
     mainClass.set("dev.jacaro.school.distributed.Server")
+    applicationDefaultJvmArgs += "-Xmx6g"
 }
 
 java {

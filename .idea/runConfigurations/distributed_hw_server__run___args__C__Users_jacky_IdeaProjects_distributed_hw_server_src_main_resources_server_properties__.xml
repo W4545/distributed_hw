@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="distributed_hw:server [run --args='/home/jack/gateway/distributed_hw/server/src/main/resources/server.properties']" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+  <configuration default="false" name="distributed_hw:server [run --args='C:\Users\jacky\IdeaProjects\distributed_hw\server\src\main\resources\server.properties']" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
     <ExternalSystemSettings>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
@@ -11,7 +11,7 @@
       <option name="taskNames">
         <list>
           <option value="run" />
-          <option value="--args='$PROJECT_DIR$/server/src/main/resources/server.properties'" />
+          <option value="--args='C:\Users\jacky\IdeaProjects\distributed_hw\server\src\main\resources\server.properties'" />
         </list>
       </option>
       <option name="vmOptions" />

@@ -6,6 +6,7 @@ plugins {
 dependencies {
     implementation(project(":common"))
     implementation("org.jetbrains:annotations:23.0.0")
+    implementation("com.opencsv:opencsv:5.6")
 }
 
 java {
