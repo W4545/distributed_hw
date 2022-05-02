@@ -24,13 +24,8 @@ public class SortThread extends Thread {
             try {
                 mergeThread.join();
                 int[] mergeThreadResult = mergeThread.getResultArray();
-                int[] tempResult = new int[mergeThreadResult.length + array.length];
 
-                System.arraycopy(array, 0, tempResult, 0, array.length);
-                System.arraycopy(mergeThreadResult, 0, tempResult, array.length, mergeThreadResult.length);
-
-                SortingAlgorithms.bubbleSort(tempResult);
-                resultArray = tempResult;
+                resultArray = SortingAlgorithms.mergeSort(array, mergeThreadResult);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

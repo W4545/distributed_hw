@@ -97,9 +97,12 @@ public class Client {
 
                 out.printf("Run Configuration: %d threads, %d arraySize%n",
                         runConfiguration.threadCount(), runConfiguration.arraySize());
-                out.printf("Start array: %s%n", Arrays.toString(runConfiguration.startArray()));
+                if (runConfiguration.arraySize() == 100) {
+                    out.printf("Start array: %s%n", Arrays.toString(runConfiguration.startArray()));
 
-                out.printf("Sorted array: %s%n", Arrays.toString(runResult.resultArray()));
+                    out.printf("Sorted array: %s%n", Arrays.toString(runResult.resultArray()));
+                }
+
                 out.printf("ExecutionTime: %dms%n", runResult.executionTime());
                 out.println("-------------------------------------------------");
                 runResults[i] = runResult;

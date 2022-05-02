@@ -20,4 +20,25 @@ public class SortingAlgorithms {
             }
         }
     }
+
+    public static int[] mergeSort(int[] first, int[] second) {
+        int[] dest = new int[first.length + second.length];
+
+        int i = 0, j = 0, k = 0;
+
+        while (i < first.length && j < second.length) {
+            if (first[i] < second[j])
+                dest[k++] = first[i++];
+            else
+                dest[k++] = second[j++];
+        }
+
+        while (i < first.length)
+            dest[k++] = first[i++];
+
+        while (j < second.length)
+            dest[k++] = second[j++];
+
+        return dest;
+    }
 }
