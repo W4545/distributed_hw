@@ -103,7 +103,7 @@ public class Client {
                     out.printf("Sorted array: %s%n", Arrays.toString(runResult.resultArray()));
                 }
 
-                out.printf("ExecutionTime: %dms%n", runResult.executionTime());
+                out.printf("ExecutionTime: %dns%n", runResult.executionTime());
                 out.println("-------------------------------------------------");
                 runResults[i] = runResult;
             }

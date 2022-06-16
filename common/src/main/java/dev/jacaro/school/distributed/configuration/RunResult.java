@@ -3,7 +3,7 @@ package dev.jacaro.school.distributed.configuration;
 import java.io.Serializable;
 import java.util.Arrays;
 
-public record RunResult(int[] resultArray, long executionTime) implements Serializable {
+public record RunResult(int[] resultArray, long executionTime) {
 
     public String objectSerial() {
         String[] strings = new String[resultArray.length];
@@ -21,7 +21,7 @@ public record RunResult(int[] resultArray, long executionTime) implements Serial
         for (int i = 0; i < intSplit.length; i++)
             arr[i] = Integer.parseInt(intSplit[i]);
 
-        var time = Integer.parseInt(split[1]);
+        var time = Long.parseLong(split[1]);
 
         return new RunResult(arr, time);
     }

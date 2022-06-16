@@ -31,7 +31,7 @@ public class ParallelExecutor {
                 sortThreads[i] = new SortThread(arrays[i], sortThreads[i + 1]);
         }
 
-        var startTime = System.currentTimeMillis();
+        var startTime = System.nanoTime();
         for (int i = sortThreads.length - 1; i >= 0; i--) {
             sortThreads[i].start();
         }
@@ -43,7 +43,7 @@ public class ParallelExecutor {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        var endTime = System.currentTimeMillis();
+        var endTime = System.nanoTime();
 
         var result = endThread.getResultArray();
 

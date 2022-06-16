@@ -3,7 +3,7 @@ package dev.jacaro.school.distributed.configuration;
 import java.io.Serializable;
 import java.util.Arrays;
 
-public record RunConfiguration(int threadCount, int arraySize, int[] startArray) implements Serializable {
+public record RunConfiguration(int threadCount, int arraySize, int[] startArray) {
 
     public String objectSerial() {
         String[] strings = new String[startArray.length];
